@@ -1,15 +1,24 @@
-# Інструкція розгортання Marimo
+# Практичне заняття 2.2
 
-## Table Of Contents
+> Практика використання марковських моделей
 
-- [Setup windows](#setup-windows)
+## Структура репозиторію
 
-### Setup windows
-
-```shell
-powershell -ExecutionPolicy ByPass -c "irm https://astral.sh/uv/install.ps1 | iex"
-
-uv tool install marimo
-
-marimo edit notebook.py --sandbox
+```text
+modeling-git
+├── code                  # Нотатники Marimo
+│   └── example.py
+├── export                # Експорт нотаток в html
+│   └── example.html
+├── CONTRIBUTING.md       # Інструкція для здобувачів освіти (кроки розгортання, принципи оформлення тощо)
+└── README.md             # Метадані заняття та вказівки викладачу
 ```
+
+## Перевірка виконання
+
+Результати роботи здобувача освіти знаходяться у теці [export](./export) у вигляді
+html сторінок (на кожне в окремому файлі) які відкриваються у браузері.
+
+## Виконання
+
+Дивись [CONTRIBUTINS.md](./CONTRIBUTING.md)
